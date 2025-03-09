@@ -5,3 +5,9 @@ export interface Word {
   meaning: string
   example: string
 }
+
+export enum LoadingStatus {
+  Loading = 'loading',
+  Loaded = 'loaded',
+  Error = 'error'
+}
