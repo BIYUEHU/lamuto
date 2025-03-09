@@ -2,6 +2,7 @@
 <script lang="ts">
   import type { Word } from "$lib/types";
   import { writable } from "svelte/store";
+  import { saveToken, addWord } from "$lib/http";
 
   const dictionary = writable<Word[]>([
     {
