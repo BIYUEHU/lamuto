@@ -1,7 +1,7 @@
 <script lang="ts">
   import { LoadingStatus, type Word } from "./lib/types";
   import { updateDictionary, loadDictionary } from "./lib/http";
-  import { dictionary, token, saveToken } from "./lib/stores";
+  import { dictionary, token, saveToken, getToken } from "./lib/stores";
 
   let searchTerm = "";
   let sortBy = "word";
@@ -32,11 +32,7 @@
   function addWord(event: Event) {
     event.preventDefault();
 
-    let tokenVal: string | undefined;
-    token.subscribe((v) => {
-      tokenVal = v;
-    })();
-
+    const tokenVal = getToken()
     if (!tokenVal) {
       alert("请先输入 GitHub Token");
       return;

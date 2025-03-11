@@ -9,14 +9,14 @@ export const dictionary = writable<Word[]>([
   {
     id: 1,
     word: 'hello',
-    type: '.n',
+    type: 'n.',
     meaning: '问候',
     example: 'hello, how are you?'
   },
   {
     id: 2,
     word: 'world',
-    type: '.n',
+    type: 'n.',
     meaning: '世界',
     example: "I'm from the world."
   }
@@ -25,4 +25,12 @@ export const dictionary = writable<Word[]>([
 export function saveToken(tokenVal: string) {
   localStorage.setItem(TOKEN_KEY, tokenVal)
   token.set(tokenVal)
+}
+
+export function getToken() {
+  let tokenVal: string | undefined
+  token.subscribe((v) => {
+    tokenVal = v
+  })()
+  return tokenVal
 }

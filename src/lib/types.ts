@@ -1,7 +1,7 @@
 export interface Word {
   id: number
   word: string
-  type: '.n' | '.v' | '.adj' | '.adv' | '.pron' | '.prep' | '.conj' | '.intj' | '.num' | '.sym' | '.punc'
+  type: 'n.' | 'v.' | 'adj.' | 'adv.' | 'pron.' | 'conj.' | 'intj.' | 'prep.'
   meaning: string
   example: string
 }
