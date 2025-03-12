@@ -14,7 +14,7 @@
   let totalPages = 1;
   let loadingStatus: LoadingStatus = LoadingStatus.Loading;
 
-  loadDictionary()
+  loadDictionary(getToken())
     .then((data) => {
       loadingStatus = LoadingStatus.Loaded;
       dictionary.set(data);
@@ -29,14 +29,8 @@
     saveToken(tokenVal);
   }
 
-  function addWord(event: Event) {
+  function addWord(event: Event, tokenVal: string) {
     event.preventDefault();
-
-    const tokenVal = getToken()
-    if (!tokenVal) {
-      alert("请先输入 GitHub Token");
-      return;
-    }
 
     const form = event.target as HTMLFormElement;
     let dict: Word[] = [];
@@ -76,6 +70,26 @@
       });
   }
 
+  function deleteWord(word: Word, tokenVal: string) {
+    if (!confirm(`确认删除 "${word.word}" (${word.type})?`)) return;
+    let data: Word[] = [];
+    dictionary.subscribe((v) => {
+      data = v.filter((w) => w.id !== word.id);
+    })();
+    updateDictionary(
+      tokenVal,
+      data,
+      `Word: delete "${word.word}" (${word.type})"`
+    )
+      .then(() => {
+        dictionary.set(data);
+      })
+      .catch((err) => {
+        alert(`更新词典失败：${err.message}`);
+        console.error("Update dictionary failed:", err);
+      });
+  }
+
   $: dictionary.subscribe((dict) => {
     filteredWords = dict.filter(
       (word) =>
@@ -97,16 +111,16 @@
 </script>
 
 <div class="max-w-5xl mx-auto p-14">
-  <div class="text-3xl font-bold mb-6">Lamuto 词典</div>
+  <div class="text-3xl font-bold mb-6"><span class="text-teal-400">L</span>a<span class="text-teal-300">m</span>u<span class="text-teal-300">t</span>o 词典</div>
   <div class="flex flex-col sm:flex-row gap-4 mb-6">
     <input
       bind:value={searchTerm}
       placeholder="搜索单词或释义..."
-      class="flex-grow border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-blue-300"
+      class="flex-grow border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-teal-300"
     />
     <select
       bind:value={sortBy}
-      class="border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-blue-300"
+      class="border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-teal-300"
     >
       <option value="word">按字母排序</option>
       <option value="type">按词性排序</option>
@@ -117,6 +131,8 @@
     <div class="text-center text-gray-600">加载中...</div>
   {:else if loadingStatus === LoadingStatus.Error}
     <div class="text-center text-red-600">加载失败，请检查网络连接。</div>
+  {:else if filteredWords.length === 0}
+    <div class="text-center text-gray-600">没有找到匹配的单词。</div>
   {:else}
     <div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -124,7 +140,17 @@
           <div
             class="p-6 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow"
           >
+            {#if $token}
+            <div class="flex items-center justify-between mb-1">
+            <h3 class="text-2xl font-semibold">{word.word}</h3>
+              <button type="button"
+                class="relative top-0 right-0 mr-2 border-0 items-end bg-gray-100 text-gray-400 hover:text-red-500 rounded-full" on:click={() => deleteWord(word, $token)}
+              >X
+              </button>
+            </div>
+            {:else}
             <h3 class="text-2xl font-semibold mb-1">{word.word}</h3>
+            {/if}
             <p class="text-sm text-gray-500 mb-2">{word.type}</p>
             <p class="mb-2">{word.meaning}</p>
             <p class="text-sm italic text-gray-400">{word.example}</p>
@@ -160,43 +186,56 @@
         placeholder="输入 GitHub Token"
         value={$token}
         on:input={onSaveToken}
-        class="border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-blue-300"
+        class="border border-gray-300 text-white p-3 rounded focus:outline-none focus:ring focus:border-teal-300 focus:text-black"
       />
     </div>
     {#if $token}
       <h3 class="text-xl font-semibold mb-4">添加新单词</h3>
-      <form on:submit|preventDefault={addWord} class="gap-4 grid">
+      <form on:submit|preventDefault={(e)=>addWord(e, $token)} class="gap-4 grid">
         <input
           name="word"
           placeholder="单词"
           required
-          class="border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-blue-300"
+          class="border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-teal-300"
         />
-        <input
+        <select
           name="type"
-          placeholder="词性"
           required
-          class="border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-blue-300"
-        />
+          class="border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-teal-300"
+        >
+          <option value="n.">名词</option>
+          <option value="v.">动词</option>
+          <option value="adj.">形容词</option>
+          <option value="adv.">副词</option>
+          <option value="pron.">代词</option>
+          <option value="conj.">连词</option>
+          <option value="intj.">感叹词</option>
+          <option value="prep.">介词</option>
+        </select>
         <input
           name="meaning"
           placeholder="释义"
           required
-          class="border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-blue-300"
+          class="border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-teal-300"
         />
         <input
           name="example"
           placeholder="例句"
-          class="border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-blue-300"
+          class="border border-gray-300 p-3 rounded focus:outline-none focus:ring focus:border-teal-300"
         />
         <button
           type="submit"
-          class="bg-blue-500 text-white p-3 rounded hover:bg-blue-600 transition"
+          class="bg-teal-300 text-white p-3 rounded hover:bg-teal-400 transition"
         >
           添加
         </button>
       </form>
     {/if}
+  </div>
+
+  <div class="mt-13 mb-0 text-center text-gray-500">
+    <hr class="w-full border-gray-300 mb-6" />
+    Copyrigth © 2025 by <a class="text-teal-400 no-underline hover:underline" href="https://github.com/biyuehu/lamuto">Lamuto</a>
   </div>
 </div>
 

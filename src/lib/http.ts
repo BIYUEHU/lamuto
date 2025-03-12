@@ -3,7 +3,7 @@ import type { Word } from './types'
 const URL = 'https://api.github.com/repos/biyuehu/lamuto/contents/data/lamuto-dictionary.json'
 
 async function request(tokenVal?: string, init: RequestInit = {}) {
-  return (
+  return await (
     await fetch(URL, {
       headers: tokenVal
         ? {
@@ -26,8 +26,8 @@ export async function loadDictionary(toeknVal?: string): Promise<Word[]> {
 }
 
 export async function updateDictionary(tokenVal: string, data: Word[], message: string): Promise<void> {
-  return request(tokenVal, {
-    method: 'POST',
+  return await request(tokenVal, {
+    method: 'PUT',
     body: JSON.stringify({
       message,
       content: btoa(JSON.stringify(data)),
