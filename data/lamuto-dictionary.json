@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": 1,
+    "word": "ka",
+    "type": "pron.",
+    "meaning": "我（主格），宾格：kaz",
+    "example": "lau ka saz 我爱你"
+  }
+]
