@@ -30,7 +30,11 @@ export async function updateDictionary(tokenVal: string, data: Word[], message: 
     method: 'PUT',
     body: JSON.stringify({
       message,
-      content: btoa(JSON.stringify(data)),
+      content: btoa(
+        Array.from(new TextEncoder().encode(JSON.stringify(data, null, 2)), (byte) => String.fromCodePoint(byte)).join(
+          ''
+        )
+      ),
       sha: (await request(tokenVal)).sha
     })
   })
