@@ -12,5 +12,12 @@
     "type": "pron.",
     "meaning": "你（主格）",
     "example": "lau sa kaz 你爱我"
+  },
+  {
+    "id": 3,
+    "word": "kate",
+    "type": "n.",
+    "meaning": "猫",
+    "example": ""
   }
 ]
