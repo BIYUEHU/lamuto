@@ -4,6 +4,7 @@ import type { Word } from './types'
 const TOKEN_KEY = 'lamuto_token'
 
 export const token = writable<string>(localStorage.getItem(TOKEN_KEY) ?? '')
+export const editMode = writable<boolean>(false)
 
 export const dictionary = writable<Word[]>([
   {
@@ -33,4 +34,12 @@ export function getToken() {
     tokenVal = v
   })()
   return tokenVal
+}
+
+export function getEditMode() {
+  let editModeVal: boolean | undefined
+  editMode.subscribe((v) => {
+    editModeVal = v
+  })()
+  return !!editModeVal
 }

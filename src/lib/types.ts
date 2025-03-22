@@ -7,7 +7,14 @@ export interface Word {
 }
 
 export enum LoadingStatus {
-  Loading = 'loading',
-  Loaded = 'loaded',
-  Error = 'error'
+  Loading,
+  Loaded,
+  Error
+}
+
+export enum ValidType {
+  Valid,
+  UnknownType,
+  IllegalSuffix,
+  UnknownSuffix
 }
