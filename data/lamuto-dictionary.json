@@ -3,49 +3,1820 @@
     "id": 1,
     "word": "ka",
     "type": "pron.",
-    "meaning": "我（主格），宾格：kaz",
-    "example": "lau ka saz 我爱你"
+    "meaning": "我（主格），宾格：kaz，所有格：kay/kazy",
+    "example": "lao ka saz 我爱你"
   },
   {
     "id": 2,
     "word": "sa",
     "type": "pron.",
-    "meaning": "你（主格）",
-    "example": "lau sa kaz 你爱我"
+    "meaning": "你（主格），宾格：saz，所有格：say/sazy",
+    "example": "lao sa kaz 你爱我"
   },
   {
     "id": 3,
-    "word": "kate",
-    "type": "n.",
-    "meaning": "猫",
-    "example": ""
+    "word": "na",
+    "type": "pron.",
+    "meaning": "他/她/它（主格），宾格：naz，所有格：nay/nazy",
+    "example": "lao na kaz 他/她爱我"
   },
   {
     "id": 4,
-    "word": "beede",
-    "type": "n.",
-    "meaning": "鸟",
-    "example": ""
+    "word": "koa",
+    "type": "pron.",
+    "meaning": "我们（主格），宾格：koaz，所有格：koay/koazy",
+    "example": "lao koa saz 我们爱你"
   },
   {
     "id": 5,
-    "word": "ta",
+    "word": "soa",
     "type": "pron.",
-    "meaning": "他/她/它（主格）",
-    "example": ""
+    "meaning": "你们（主格），宾格：soaz，所有格：soay/soazy",
+    "example": "lao soa kaz 你们爱我"
   },
   {
     "id": 6,
-    "word": "lau",
-    "type": "v.",
-    "meaning": "爱",
-    "example": ""
+    "word": "noa",
+    "type": "pron.",
+    "meaning": "他们/她们/它们（主格），宾格：noaz，所有格：noay/noazy",
+    "example": "lao noa kaz 他们爱我"
   },
   {
     "id": 7,
+    "word": "ta",
+    "type": "pron.",
+    "meaning": "这（主格），宾格：taz，所有格：tay/tazy",
+    "example": "zo ta kate 这是猫"
+  },
+  {
+    "id": 8,
+    "word": "da",
+    "type": "pron.",
+    "meaning": "那（主格），宾格：daz，所有格：day/dazy",
+    "example": "zo da doge 那是狗"
+  },
+  {
+    "id": 9,
+    "word": "kwa",
+    "type": "pron.",
+    "meaning": "什么（疑问词），宾格：kwaz",
+    "example": "zo kwa? 这是什么？"
+  },
+  {
+    "id": 10,
+    "word": "hwa",
+    "type": "pron.",
+    "meaning": "谁（疑问词），宾格：hwaz",
+    "example": "lao hwa saz? 谁爱你？"
+  },
+  {
+    "id": 11,
+    "word": "dwa",
+    "type": "pron.",
+    "meaning": "哪里/何处（疑问词）",
+    "example": "zo sa dwa? 你在哪里？"
+  },
+  {
+    "id": 12,
+    "word": "twa",
+    "type": "pron.",
+    "meaning": "何时/什么时候（疑问词）",
+    "example": "bi kao sa twa? 你什么时候来的？"
+  },
+  {
+    "id": 13,
+    "word": "swa",
+    "type": "pron.",
+    "meaning": "为什么/为何（疑问词）",
+    "example": "swa lao sa kaz? 你为什么爱我？"
+  },
+  {
+    "id": 14,
+    "word": "mwa",
+    "type": "pron.",
+    "meaning": "如何/怎么样（疑问词）",
+    "example": "mwa zo sa? 你怎么样？"
+  },
+  {
+    "id": 15,
+    "word": "lao",
+    "type": "v.",
+    "meaning": "爱",
+    "example": "lao ka saz 我爱你"
+  },
+  {
+    "id": 16,
+    "word": "pulo",
+    "type": "v.",
+    "meaning": "玩，游戏",
+    "example": "pulo kate boez 猫玩球"
+  },
+  {
+    "id": 17,
+    "word": "fulao",
+    "type": "v.",
+    "meaning": "飞",
+    "example": "fulao birdez 鸟在飞"
+  },
+  {
+    "id": 18,
     "word": "zo",
     "type": "v.",
     "meaning": "是，存在",
-    "example": "zo kate 是鸟/有只鸟"
+    "example": "zo kate 有猫/是猫"
+  },
+  {
+    "id": 19,
+    "word": "gao",
+    "type": "v.",
+    "meaning": "去",
+    "example": "gao ka domez 我去家"
+  },
+  {
+    "id": 20,
+    "word": "kao",
+    "type": "v.",
+    "meaning": "来",
+    "example": "kao sa 你来"
+  },
+  {
+    "id": 21,
+    "word": "diko",
+    "type": "v.",
+    "meaning": "说，讲",
+    "example": "diko na 他说"
+  },
+  {
+    "id": 22,
+    "word": "viso",
+    "type": "v.",
+    "meaning": "看，看见",
+    "example": "viso ka katez 我看见猫"
+  },
+  {
+    "id": 23,
+    "word": "audo",
+    "type": "v.",
+    "meaning": "听，听见",
+    "example": "audo ka musikez 我听音乐"
+  },
+  {
+    "id": 24,
+    "word": "sabo",
+    "type": "v.",
+    "meaning": "知道",
+    "example": "sabo ka tez 我知道这个"
+  },
+  {
+    "id": 25,
+    "word": "peno",
+    "type": "v.",
+    "meaning": "想，思考",
+    "example": "peno ka 我在想"
+  },
+  {
+    "id": 26,
+    "word": "felo",
+    "type": "v.",
+    "meaning": "感觉，感受",
+    "example": "felo ka gon 我感觉很好"
+  },
+  {
+    "id": 27,
+    "word": "havo",
+    "type": "v.",
+    "meaning": "有，拥有",
+    "example": "havo ka katez 我有猫"
+  },
+  {
+    "id": 28,
+    "word": "faro",
+    "type": "v.",
+    "meaning": "做，制作",
+    "example": "faro ka kukezez 我做蛋糕"
+  },
+  {
+    "id": 29,
+    "word": "eto",
+    "type": "v.",
+    "meaning": "吃",
+    "example": "eto ka panez 我吃面包"
+  },
+  {
+    "id": 30,
+    "word": "trinko",
+    "type": "v.",
+    "meaning": "喝",
+    "example": "trinko ka akwez 我喝水"
+  },
+  {
+    "id": 31,
+    "word": "dormo",
+    "type": "v.",
+    "meaning": "睡觉",
+    "example": "dormo ka 我睡觉"
+  },
+  {
+    "id": 32,
+    "word": "vivo",
+    "type": "v.",
+    "meaning": "生活，居住",
+    "example": "vivo ka domez 我住在家里"
+  },
+  {
+    "id": 33,
+    "word": "laboro",
+    "type": "v.",
+    "meaning": "工作",
+    "example": "laboro ka 我工作"
+  },
+  {
+    "id": 34,
+    "word": "lerno",
+    "type": "v.",
+    "meaning": "学习",
+    "example": "lerno ka lamutoz 我学习Lamuto"
+  },
+  {
+    "id": 35,
+    "word": "dono",
+    "type": "v.",
+    "meaning": "给",
+    "example": "dono ka librez saz 我给你书"
+  },
+  {
+    "id": 36,
+    "word": "preno",
+    "type": "v.",
+    "meaning": "拿，取",
+    "example": "preno ka taz 我拿这个"
+  },
+  {
+    "id": 37,
+    "word": "skribо",
+    "type": "v.",
+    "meaning": "写",
+    "example": "skribo ka leterez 我写信"
+  },
+  {
+    "id": 38,
+    "word": "lego",
+    "type": "v.",
+    "meaning": "读",
+    "example": "lego ka librez 我读书"
+  },
+  {
+    "id": 39,
+    "word": "kate",
+    "type": "n.",
+    "meaning": "猫",
+    "example": "lam kate 可爱的猫"
+  },
+  {
+    "id": 40,
+    "word": "doge",
+    "type": "n.",
+    "meaning": "狗",
+    "example": "bigm doge 大狗"
+  },
+  {
+    "id": 41,
+    "word": "birde",
+    "type": "n.",
+    "meaning": "鸟",
+    "example": "fulao birde 鸟在飞"
+  },
+  {
+    "id": 42,
+    "word": "fishe",
+    "type": "n.",
+    "meaning": "鱼",
+    "example": "zo fishe akwez 鱼在水里"
+  },
+  {
+    "id": 43,
+    "word": "boe",
+    "type": "n.",
+    "meaning": "球",
+    "example": "pulo kate boez 猫玩球"
+  },
+  {
+    "id": 44,
+    "word": "dome",
+    "type": "n.",
+    "meaning": "家，房子",
+    "example": "vivo ka domez 我住在家里"
+  },
+  {
+    "id": 45,
+    "word": "sole",
+    "type": "n.",
+    "meaning": "太阳",
+    "example": "hotm sole 炎热的太阳"
+  },
+  {
+    "id": 46,
+    "word": "lune",
+    "type": "n.",
+    "meaning": "月亮",
+    "example": "brilm lune 明亮的月亮"
+  },
+  {
+    "id": 47,
+    "word": "stele",
+    "type": "n.",
+    "meaning": "星星",
+    "example": "multm stele 很多星星"
+  },
+  {
+    "id": 48,
+    "word": "akwe",
+    "type": "n.",
+    "meaning": "水",
+    "example": "trinko ka akwez 我喝水"
+  },
+  {
+    "id": 49,
+    "word": "fojre",
+    "type": "n.",
+    "meaning": "火",
+    "example": "hotm fojre 炎热的火"
+  },
+  {
+    "id": 50,
+    "word": "tere",
+    "type": "n.",
+    "meaning": "土地，地球",
+    "example": "bigm tere 大地"
+  },
+  {
+    "id": 51,
+    "word": "aere",
+    "type": "n.",
+    "meaning": "空气",
+    "example": "klinm aere 清新的空气"
+  },
+  {
+    "id": 52,
+    "word": "tempe",
+    "type": "n.",
+    "meaning": "时间",
+    "example": "mutn tempe 很多时间"
+  },
+  {
+    "id": 53,
+    "word": "loke",
+    "type": "n.",
+    "meaning": "地方，位置",
+    "example": "belm loke 美丽的地方"
+  },
+  {
+    "id": 54,
+    "word": "persone",
+    "type": "n.",
+    "meaning": "人",
+    "example": "bonm persone 好人"
+  },
+  {
+    "id": 55,
+    "word": "vire",
+    "type": "n.",
+    "meaning": "男人",
+    "example": "fortm vire 强壮的男人"
+  },
+  {
+    "id": 56,
+    "word": "femme",
+    "type": "n.",
+    "meaning": "女人",
+    "example": "belm femme 美丽的女人"
+  },
+  {
+    "id": 57,
+    "word": "infane",
+    "type": "n.",
+    "meaning": "孩子，小孩",
+    "example": "lam infane 可爱的孩子"
+  },
+  {
+    "id": 58,
+    "word": "parne",
+    "type": "n.",
+    "meaning": "父母",
+    "example": "lao ka parnez 我爱父母"
+  },
+  {
+    "id": 59,
+    "word": "patre",
+    "type": "n.",
+    "meaning": "父亲",
+    "example": "fortm patre 强壮的父亲"
+  },
+  {
+    "id": 60,
+    "word": "matre",
+    "type": "n.",
+    "meaning": "母亲",
+    "example": "tenerm matre 温柔的母亲"
+  },
+  {
+    "id": 61,
+    "word": "amike",
+    "type": "n.",
+    "meaning": "朋友",
+    "example": "bonm amike 好朋友"
+  },
+  {
+    "id": 62,
+    "word": "libre",
+    "type": "n.",
+    "meaning": "书",
+    "example": "lego ka librez 我读书"
+  },
+  {
+    "id": 63,
+    "word": "pane",
+    "type": "n.",
+    "meaning": "面包",
+    "example": "eto ka panez 我吃面包"
+  },
+  {
+    "id": 64,
+    "word": "karne",
+    "type": "n.",
+    "meaning": "肉",
+    "example": "bonm karne 好吃的肉"
+  },
+  {
+    "id": 65,
+    "word": "frukте",
+    "type": "n.",
+    "meaning": "水果",
+    "example": "dolchm frukte 甜的水果"
+  },
+  {
+    "id": 66,
+    "word": "lae",
+    "type": "n.",
+    "meaning": "爱（名词）",
+    "example": "bigm lae 大爱"
+  },
+  {
+    "id": 67,
+    "word": "pule",
+    "type": "n.",
+    "meaning": "游戏，玩耍（名词）",
+    "example": "funm pule 有趣的游戏"
+  },
+  {
+    "id": 68,
+    "word": "fulae",
+    "type": "n.",
+    "meaning": "飞行，翅膀",
+    "example": "rapidm fulae 快速的飞行"
+  },
+  {
+    "id": 69,
+    "word": "labore",
+    "type": "n.",
+    "meaning": "工作（名词）",
+    "example": "difikm labore 困难的工作"
+  },
+  {
+    "id": 70,
+    "word": "lerne",
+    "type": "n.",
+    "meaning": "学习（名词）",
+    "example": "bonm lerne 好的学习"
+  },
+  {
+    "id": 71,
+    "word": "lam",
+    "type": "adj.",
+    "meaning": "可爱的",
+    "example": "lam kate 可爱的猫"
+  },
+  {
+    "id": 72,
+    "word": "bigm",
+    "type": "adj.",
+    "meaning": "大的",
+    "example": "bigm dome 大房子"
+  },
+  {
+    "id": 73,
+    "word": "litm",
+    "type": "adj.",
+    "meaning": "小的",
+    "example": "litm boe 小球"
+  },
+  {
+    "id": 74,
+    "word": "bonm",
+    "type": "adj.",
+    "meaning": "好的",
+    "example": "bonm libro 好书"
+  },
+  {
+    "id": 75,
+    "word": "malm",
+    "type": "adj.",
+    "meaning": "坏的",
+    "example": "malm tempe 坏天气"
+  },
+  {
+    "id": 76,
+    "word": "nuvam",
+    "type": "adj.",
+    "meaning": "新的",
+    "example": "nuvam dome 新房子"
+  },
+  {
+    "id": 77,
+    "word": "oldm",
+    "type": "adj.",
+    "meaning": "旧的，老的",
+    "example": "oldm libre 旧书"
+  },
+  {
+    "id": 78,
+    "word": "hotm",
+    "type": "adj.",
+    "meaning": "热的",
+    "example": "hotm akwe 热水"
+  },
+  {
+    "id": 79,
+    "word": "koldm",
+    "type": "adj.",
+    "meaning": "冷的",
+    "example": "koldm aere 冷空气"
+  },
+  {
+    "id": 80,
+    "word": "belm",
+    "type": "adj.",
+    "meaning": "美丽的",
+    "example": "belm loke 美丽的地方"
+  },
+  {
+    "id": 81,
+    "word": "rapidm",
+    "type": "adj.",
+    "meaning": "快的，迅速的",
+    "example": "rapidm kate 快速的猫"
+  },
+  {
+    "id": 82,
+    "word": "slovm",
+    "type": "adj.",
+    "meaning": "慢的",
+    "example": "slovm doge 慢狗"
+  },
+  {
+    "id": 83,
+    "word": "fortm",
+    "type": "adj.",
+    "meaning": "强壮的",
+    "example": "fortm vire 强壮的男人"
+  },
+  {
+    "id": 84,
+    "word": "febm",
+    "type": "adj.",
+    "meaning": "弱的",
+    "example": "febm infane 弱小的孩子"
+  },
+  {
+    "id": 85,
+    "word": "longm",
+    "type": "adj.",
+    "meaning": "长的",
+    "example": "longm tempe 长时间"
+  },
+  {
+    "id": 86,
+    "word": "kortm",
+    "type": "adj.",
+    "meaning": "短的",
+    "example": "kortm letere 短信"
+  },
+  {
+    "id": 87,
+    "word": "altm",
+    "type": "adj.",
+    "meaning": "高的",
+    "example": "altm monte 高山"
+  },
+  {
+    "id": 88,
+    "word": "bajm",
+    "type": "adj.",
+    "meaning": "低的",
+    "example": "bajm tabile 低桌子"
+  },
+  {
+    "id": 89,
+    "word": "felitsm",
+    "type": "adj.",
+    "meaning": "幸福的，快乐的",
+    "example": "felitsm persone 快乐的人"
+  },
+  {
+    "id": 90,
+    "word": "tristm",
+    "type": "adj.",
+    "meaning": "悲伤的",
+    "example": "tristm infane 悲伤的孩子"
+  },
+  {
+    "id": 91,
+    "word": "brilm",
+    "type": "adj.",
+    "meaning": "明亮的",
+    "example": "brilm lune 明亮的月亮"
+  },
+  {
+    "id": 92,
+    "word": "obskurm",
+    "type": "adj.",
+    "meaning": "黑暗的",
+    "example": "obskurm nokte 黑暗的夜晚"
+  },
+  {
+    "id": 93,
+    "word": "klinm",
+    "type": "adj.",
+    "meaning": "干净的",
+    "example": "klinm dome 干净的家"
+  },
+  {
+    "id": 94,
+    "word": "malpurm",
+    "type": "adj.",
+    "meaning": "脏的",
+    "example": "malpurm vestez 脏衣服"
+  },
+  {
+    "id": 95,
+    "word": "dolchm",
+    "type": "adj.",
+    "meaning": "甜的",
+    "example": "dolchm kuke 甜蛋糕"
+  },
+  {
+    "id": 96,
+    "word": "amarm",
+    "type": "adj.",
+    "meaning": "苦的",
+    "example": "amarm kafe 苦咖啡"
+  },
+  {
+    "id": 97,
+    "word": "multm",
+    "type": "adj.",
+    "meaning": "多的，许多的",
+    "example": "multm persone 很多人"
+  },
+  {
+    "id": 98,
+    "word": "fewm",
+    "type": "adj.",
+    "meaning": "少的",
+    "example": "fewm tempe 少量时间"
+  },
+  {
+    "id": 99,
+    "word": "plenm",
+    "type": "adj.",
+    "meaning": "满的，充满的",
+    "example": "plenm glase 满杯子"
+  },
+  {
+    "id": 100,
+    "word": "voidm",
+    "type": "adj.",
+    "meaning": "空的",
+    "example": "voidm bokse 空盒子"
+  },
+  {
+    "id": 101,
+    "word": "lan",
+    "type": "adv.",
+    "meaning": "有爱地，温柔地",
+    "example": "diko lan 温柔地说"
+  },
+  {
+    "id": 102,
+    "word": "rapidn",
+    "type": "adv.",
+    "meaning": "快速地",
+    "example": "gao rapidn 快速地去"
+  },
+  {
+    "id": 103,
+    "word": "slovn",
+    "type": "adv.",
+    "meaning": "慢慢地",
+    "example": "pulo slovn 慢慢地玩"
+  },
+  {
+    "id": 104,
+    "word": "bonn",
+    "type": "adv.",
+    "meaning": "好地，很好",
+    "example": "faro bonn 做得好"
+  },
+  {
+    "id": 105,
+    "word": "maln",
+    "type": "adv.",
+    "meaning": "坏地，糟糕地",
+    "example": "skribo maln 写得不好"
+  },
+  {
+    "id": 106,
+    "word": "mutn",
+    "type": "adv.",
+    "meaning": "非常，很，多",
+    "example": "lao mutn 非常爱"
+  },
+  {
+    "id": 107,
+    "word": "fortn",
+    "type": "adv.",
+    "meaning": "强烈地",
+    "example": "felo fortn 强烈地感觉"
+  },
+  {
+    "id": 108,
+    "word": "febn",
+    "type": "adv.",
+    "meaning": "微弱地",
+    "example": "audo febn 微弱地听到"
+  },
+  {
+    "id": 109,
+    "word": "nun",
+    "type": "adv.",
+    "meaning": "现在，此刻",
+    "example": "zo ka nun dome 我现在在家"
+  },
+  {
+    "id": 110,
+    "word": "antan",
+    "type": "adv.",
+    "meaning": "之前，以前",
+    "example": "viso ka antan 我之前看过"
+  },
+  {
+    "id": 111,
+    "word": "postan",
+    "type": "adv.",
+    "meaning": "之后，以后",
+    "example": "gao ka postan 我之后去"
+  },
+  {
+    "id": 112,
+    "word": "semprn",
+    "type": "adv.",
+    "meaning": "总是，永远",
+    "example": "lao ka semprn saz 我永远爱你"
+  },
+  {
+    "id": 113,
+    "word": "nenian",
+    "type": "adv.",
+    "meaning": "从不",
+    "example": "dormo nenian 从不睡觉"
+  },
+  {
+    "id": 114,
+    "word": "hojran",
+    "type": "adv.",
+    "meaning": "今天",
+    "example": "laboro ka hojran 我今天工作"
+  },
+  {
+    "id": 115,
+    "word": "hieran",
+    "type": "adv.",
+    "meaning": "昨天",
+    "example": "kao ka hieran 我昨天来了"
+  },
+  {
+    "id": 116,
+    "word": "morgon",
+    "type": "adv.",
+    "meaning": "明天",
+    "example": "gao ka morgon 我明天去"
+  },
+  {
+    "id": 117,
+    "word": "hejre",
+    "type": "adv.",
+    "meaning": "这里",
+    "example": "zo ka hejre 我在这里"
+  },
+  {
+    "id": 118,
+    "word": "tiere",
+    "type": "adv.",
+    "meaning": "那里",
+    "example": "gao ka tiere 我去那里"
+  },
+  {
+    "id": 119,
+    "word": "li",
+    "type": "aux.",
+    "meaning": "现在进行时助词",
+    "example": "li pulo kate 猫正在玩"
+  },
+  {
+    "id": 120,
+    "word": "vi",
+    "type": "aux.",
+    "meaning": "一般将来时助词",
+    "example": "vi kao sa 你将来"
+  },
+  {
+    "id": 121,
+    "word": "vili",
+    "type": "aux.",
+    "meaning": "将来进行时助词",
+    "example": "vili laboro ka 我将正在工作"
+  },
+  {
+    "id": 122,
+    "word": "bi",
+    "type": "aux.",
+    "meaning": "一般过去时助词",
+    "example": "bi viso ka 我看见了"
+  },
+  {
+    "id": 123,
+    "word": "bili",
+    "type": "aux.",
+    "meaning": "过去进行时助词",
+    "example": "bili dormo ka 我当时正在睡觉"
+  },
+  {
+    "id": 124,
+    "word": "pe",
+    "type": "aux.",
+    "meaning": "完成体助词",
+    "example": "bi pe lego ka 我已经读完了"
+  },
+  {
+    "id": 125,
+    "word": "ko",
+    "type": "aux.",
+    "meaning": "持续体助词",
+    "example": "li ko laboro ka 我一直在工作"
+  },
+  {
+    "id": 126,
+    "word": "fin",
+    "type": "aux.",
+    "meaning": "完结体助词",
+    "example": "bi fin eto ka 我吃完了"
+  },
+  {
+    "id": 127,
+    "word": "syu",
+    "type": "aux.",
+    "meaning": "被动态助词",
+    "example": "bi syu lao ka 我被爱了"
+  },
+  {
+    "id": 128,
+    "word": "kau",
+    "type": "aux.",
+    "meaning": "使役态助词",
+    "example": "vi kau pulo ka 我将让[某人]玩"
+  },
+  {
+    "id": 129,
+    "word": "mit",
+    "type": "part.",
+    "meaning": "否定词，表示否定",
+    "example": "mit lao ka saz 我不爱你"
+  },
+  {
+    "id": 130,
+    "word": "ke",
+    "type": "conj.",
+    "meaning": "和，与（并列连词）",
+    "example": "kate ke doge 猫和狗"
+  },
+  {
+    "id": 131,
+    "word": "o",
+    "type": "conj.",
+    "meaning": "或，或者（选择连词）",
+    "example": "pane o karne 面包或肉"
+  },
+  {
+    "id": 132,
+    "word": "sed",
+    "type": "conj.",
+    "meaning": "但是（转折连词）",
+    "example": "litm sed fortm 小但强壮"
+  },
+  {
+    "id": 133,
+    "word": "kar",
+    "type": "conj.",
+    "meaning": "因为（原因连词）",
+    "example": "felitsm ka kar lao sa kaz 我快乐因为你爱我"
+  },
+  {
+    "id": 134,
+    "word": "do",
+    "type": "conj.",
+    "meaning": "所以（结果连词）",
+    "example": "tristm ka do mit gao 我悲伤所以不去"
+  },
+  {
+    "id": 135,
+    "word": "si",
+    "type": "conj.",
+    "meaning": "如果（条件连词）",
+    "example": "si kao sa, felitsm ka 如果你来，我快乐"
+  },
+  {
+    "id": 136,
+    "word": "te",
+    "type": "part.",
+    "meaning": "从句标记词，引导从句",
+    "example": "sabo ka te lao sa kaz 我知道你爱我"
+  },
+  {
+    "id": 137,
+    "word": "nul",
+    "type": "num.",
+    "meaning": "零，0",
+    "example": "nul kate 零只猫"
+  },
+  {
+    "id": 138,
+    "word": "un",
+    "type": "num.",
+    "meaning": "一，1",
+    "example": "un doge 一只狗"
+  },
+  {
+    "id": 139,
+    "word": "du",
+    "type": "num.",
+    "meaning": "二，2",
+    "example": "du kate 两只猫"
+  },
+  {
+    "id": 140,
+    "word": "tri",
+    "type": "num.",
+    "meaning": "三，3",
+    "example": "tri birde 三只鸟"
+  },
+  {
+    "id": 141,
+    "word": "kvar",
+    "type": "num.",
+    "meaning": "四，4",
+    "example": "kvar boe 四个球"
+  },
+  {
+    "id": 142,
+    "word": "kvin",
+    "type": "num.",
+    "meaning": "五，5",
+    "example": "kvin libre 五本书"
+  },
+  {
+    "id": 143,
+    "word": "ses",
+    "type": "num.",
+    "meaning": "六，6",
+    "example": "ses persone 六个人"
+  },
+  {
+    "id": 144,
+    "word": "sep",
+    "type": "num.",
+    "meaning": "七，7",
+    "example": "sep stele 七颗星星"
+  },
+  {
+    "id": 145,
+    "word": "ok",
+    "type": "num.",
+    "meaning": "八，8",
+    "example": "ok dome 八座房子"
+  },
+  {
+    "id": 146,
+    "word": "nav",
+    "type": "num.",
+    "meaning": "九，9",
+    "example": "nav infane 九个孩子"
+  },
+  {
+    "id": 147,
+    "word": "dek",
+    "type": "num.",
+    "meaning": "十，10",
+    "example": "dek amike 十个朋友"
+  },
+  {
+    "id": 148,
+    "word": "sent",
+    "type": "num.",
+    "meaning": "百，100",
+    "example": "un sent persone 一百人"
+  },
+  {
+    "id": 149,
+    "word": "mil",
+    "type": "num.",
+    "meaning": "千，1000",
+    "example": "du mil libre 两千本书"
+  },
+  {
+    "id": 150,
+    "word": "kolore",
+    "type": "n.",
+    "meaning": "颜色",
+    "example": "belm kolore 美丽的颜色"
+  },
+  {
+    "id": 151,
+    "word": "rujem",
+    "type": "adj.",
+    "meaning": "红色的",
+    "example": "rujem boe 红球"
+  },
+  {
+    "id": 152,
+    "word": "bluem",
+    "type": "adj.",
+    "meaning": "蓝色的",
+    "example": "bluem chiele 蓝天"
+  },
+  {
+    "id": 153,
+    "word": "verdm",
+    "type": "adj.",
+    "meaning": "绿色的",
+    "example": "verdm herbe 绿草"
+  },
+  {
+    "id": 154,
+    "word": "flavm",
+    "type": "adj.",
+    "meaning": "黄色的",
+    "example": "flavm sole 黄太阳"
+  },
+  {
+    "id": 155,
+    "word": "nigram",
+    "type": "adj.",
+    "meaning": "黑色的",
+    "example": "nigram kate 黑猫"
+  },
+  {
+    "id": 156,
+    "word": "blankm",
+    "type": "adj.",
+    "meaning": "白色的",
+    "example": "blankm lune 白月亮"
+  },
+  {
+    "id": 157,
+    "word": "korpoe",
+    "type": "n.",
+    "meaning": "身体",
+    "example": "fortm korpoe 强壮的身体"
+  },
+  {
+    "id": 158,
+    "word": "kapoe",
+    "type": "n.",
+    "meaning": "头",
+    "example": "bigm kapoe 大头"
+  },
+  {
+    "id": 159,
+    "word": "okule",
+    "type": "n.",
+    "meaning": "眼睛",
+    "example": "belm okule 美丽的眼睛"
+  },
+  {
+    "id": 160,
+    "word": "orele",
+    "type": "n.",
+    "meaning": "耳朵",
+    "example": "longm orele 长耳朵"
+  },
+  {
+    "id": 161,
+    "word": "buше",
+    "type": "n.",
+    "meaning": "嘴",
+    "example": "grandm bushe 大嘴"
+  },
+  {
+    "id": 162,
+    "word": "maze",
+    "type": "n.",
+    "meaning": "手",
+    "example": "klinm maze 干净的手"
+  },
+  {
+    "id": 163,
+    "word": "piede",
+    "type": "n.",
+    "meaning": "脚",
+    "example": "rapidm piede 快脚"
+  },
+  {
+    "id": 164,
+    "word": "korе",
+    "type": "n.",
+    "meaning": "心，内心",
+    "example": "bonm kore 善良的心"
+  },
+  {
+    "id": 165,
+    "word": "jare",
+    "type": "n.",
+    "meaning": "年，年龄",
+    "example": "dek jare 十岁"
+  },
+  {
+    "id": 166,
+    "word": "monathe",
+    "type": "n.",
+    "meaning": "月（时间）",
+    "example": "du monathe 两个月"
+  },
+  {
+    "id": 167,
+    "word": "semane",
+    "type": "n.",
+    "meaning": "星期，周",
+    "example": "un semane 一周"
+  },
+  {
+    "id": 168,
+    "word": "diae",
+    "type": "n.",
+    "meaning": "天，日子",
+    "example": "belm diae 美好的一天"
+  },
+  {
+    "id": 169,
+    "word": "hore",
+    "type": "n.",
+    "meaning": "小时",
+    "example": "tri hore 三小时"
+  },
+  {
+    "id": 170,
+    "word": "minute",
+    "type": "n.",
+    "meaning": "分钟",
+    "example": "kvin minute 五分钟"
+  },
+  {
+    "id": 171,
+    "word": "matene",
+    "type": "n.",
+    "meaning": "早晨，上午",
+    "example": "belm matene 美好的早晨"
+  },
+  {
+    "id": 172,
+    "word": "tagmeze",
+    "type": "n.",
+    "meaning": "中午",
+    "example": "hotm tagmeze 炎热的中午"
+  },
+  {
+    "id": 173,
+    "word": "vespere",
+    "type": "n.",
+    "meaning": "晚上，傍晚",
+    "example": "kvietm vespere 安静的傍晚"
+  },
+  {
+    "id": 174,
+    "word": "nokte",
+    "type": "n.",
+    "meaning": "夜晚",
+    "example": "obskurm nokte 黑暗的夜晚"
+  },
+  {
+    "id": 175,
+    "word": "printempe",
+    "type": "n.",
+    "meaning": "春天",
+    "example": "belm printempe 美丽的春天"
+  },
+  {
+    "id": 176,
+    "word": "sumare",
+    "type": "n.",
+    "meaning": "夏天",
+    "example": "hotm sumare 炎热的夏天"
+  },
+  {
+    "id": 177,
+    "word": "awtune",
+    "type": "n.",
+    "meaning": "秋天",
+    "example": "koldm awtune 凉爽的秋天"
+  },
+  {
+    "id": 178,
+    "word": "vintere",
+    "type": "n.",
+    "meaning": "冬天",
+    "example": "fridm vintere 寒冷的冬天"
+  },
+  {
+    "id": 179,
+    "word": "chiele",
+    "type": "n.",
+    "meaning": "天空",
+    "example": "bluem chiele 蓝天"
+  },
+  {
+    "id": 180,
+    "word": "nubе",
+    "type": "n.",
+    "meaning": "云",
+    "example": "blankm nube 白云"
+  },
+  {
+    "id": 181,
+    "word": "pluvе",
+    "type": "n.",
+    "meaning": "雨",
+    "example": "fortm pluve 大雨"
+  },
+  {
+    "id": 182,
+    "word": "nevе",
+    "type": "n.",
+    "meaning": "雪",
+    "example": "blankm neve 白雪"
+  },
+  {
+    "id": 183,
+    "word": "ventе",
+    "type": "n.",
+    "meaning": "风",
+    "example": "fortm vente 强风"
+  },
+  {
+    "id": 184,
+    "word": "arbе",
+    "type": "n.",
+    "meaning": "树",
+    "example": "altm arbe 高树"
+  },
+  {
+    "id": 185,
+    "word": "flore",
+    "type": "n.",
+    "meaning": "花",
+    "example": "belm flore 美丽的花"
+  },
+  {
+    "id": 186,
+    "word": "herbe",
+    "type": "n.",
+    "meaning": "草",
+    "example": "verdm herbe 绿草"
+  },
+  {
+    "id": 187,
+    "word": "monte",
+    "type": "n.",
+    "meaning": "山",
+    "example": "altm monte 高山"
+  },
+  {
+    "id": 188,
+    "word": "mare",
+    "type": "n.",
+    "meaning": "海",
+    "example": "bluem mare 蓝海"
+  },
+  {
+    "id": 189,
+    "word": "rivere",
+    "type": "n.",
+    "meaning": "河",
+    "example": "longm rivere 长河"
+  },
+  {
+    "id": 190,
+    "word": "lage",
+    "type": "n.",
+    "meaning": "湖",
+    "example": "klinm lage 清澈的湖"
+  },
+  {
+    "id": 191,
+    "word": "strade",
+    "type": "n.",
+    "meaning": "街道，路",
+    "example": "longm strade 长路"
+  },
+  {
+    "id": 192,
+    "word": "urbe",
+    "type": "n.",
+    "meaning": "城市",
+    "example": "bigm urbe 大城市"
+  },
+  {
+    "id": 193,
+    "word": "vilaje",
+    "type": "n.",
+    "meaning": "村庄",
+    "example": "litm vilaje 小村庄"
+  },
+  {
+    "id": 194,
+    "word": "lande",
+    "type": "n.",
+    "meaning": "国家，土地",
+    "example": "belm lande 美丽的国家"
+  },
+  {
+    "id": 195,
+    "word": "monde",
+    "type": "n.",
+    "meaning": "世界",
+    "example": "grandm monde 大世界"
+  },
+  {
+    "id": 196,
+    "word": "langue",
+    "type": "n.",
+    "meaning": "语言",
+    "example": "belm langue 美丽的语言"
+  },
+  {
+    "id": 197,
+    "word": "lamute",
+    "type": "n.",
+    "meaning": "拉穆托语",
+    "example": "lerno ka lamutez 我学拉穆托语"
+  },
+  {
+    "id": 198,
+    "word": "vorte",
+    "type": "n.",
+    "meaning": "词，单词",
+    "example": "nuvam vorte 新词"
+  },
+  {
+    "id": 199,
+    "word": "frazе",
+    "type": "n.",
+    "meaning": "句子",
+    "example": "longm fraze 长句子"
+  },
+  {
+    "id": 200,
+    "word": "letere",
+    "type": "n.",
+    "meaning": "信，字母",
+    "example": "skribo ka leterez 我写信"
+  },
+  {
+    "id": 201,
+    "word": "numbere",
+    "type": "n.",
+    "meaning": "数字，号码",
+    "example": "grandm numbere 大数字"
+  },
+  {
+    "id": 202,
+    "word": "nome",
+    "type": "n.",
+    "meaning": "名字",
+    "example": "belm nome 美丽的名字"
+  },
+  {
+    "id": 203,
+    "word": "voje",
+    "type": "n.",
+    "meaning": "声音",
+    "example": "fortm voje 大声音"
+  },
+  {
+    "id": 204,
+    "word": "muzike",
+    "type": "n.",
+    "meaning": "音乐",
+    "example": "belm muzike 美丽的音乐"
+  },
+  {
+    "id": 205,
+    "word": "kante",
+    "type": "n.",
+    "meaning": "歌",
+    "example": "lao ka kantez 我爱歌"
+  },
+  {
+    "id": 206,
+    "word": "danse",
+    "type": "n.",
+    "meaning": "舞蹈",
+    "example": "belm danse 美丽的舞蹈"
+  },
+  {
+    "id": 207,
+    "word": "arte",
+    "type": "n.",
+    "meaning": "艺术",
+    "example": "bonm arte 好艺术"
+  },
+  {
+    "id": 208,
+    "word": "bilde",
+    "type": "n.",
+    "meaning": "图画，图片",
+    "example": "belm bilde 美丽的图画"
+  },
+  {
+    "id": 209,
+    "word": "filmo",
+    "type": "n.",
+    "meaning": "电影",
+    "example": "viso ka filmoz 我看电影"
+  },
+  {
+    "id": 210,
+    "word": "komputere",
+    "type": "n.",
+    "meaning": "电脑，计算机",
+    "example": "nuvam komputere 新电脑"
+  },
+  {
+    "id": 211,
+    "word": "telefone",
+    "type": "n.",
+    "meaning": "电话",
+    "example": "litm telefone 小电话"
+  },
+  {
+    "id": 212,
+    "word": "reto",
+    "type": "n.",
+    "meaning": "网络，网",
+    "example": "interrete 互联网"
+  },
+  {
+    "id": 213,
+    "word": "shkolе",
+    "type": "n.",
+    "meaning": "学校",
+    "example": "gao ka shkоlez 我去学校"
+  },
+  {
+    "id": 214,
+    "word": "ofitse",
+    "type": "n.",
+    "meaning": "办公室",
+    "example": "laboro ka ofitsez 我在办公室工作"
+  },
+  {
+    "id": 215,
+    "word": "magazene",
+    "type": "n.",
+    "meaning": "商店",
+    "example": "bigm magazene 大商店"
+  },
+  {
+    "id": 216,
+    "word": "hotele",
+    "type": "n.",
+    "meaning": "旅馆，酒店",
+    "example": "bonm hotele 好旅馆"
+  },
+  {
+    "id": 217,
+    "word": "restorante",
+    "type": "n.",
+    "meaning": "餐厅",
+    "example": "belm restorante 美丽的餐厅"
+  },
+  {
+    "id": 218,
+    "word": "hospitale",
+    "type": "n.",
+    "meaning": "医院",
+    "example": "grandm hospitale 大医院"
+  },
+  {
+    "id": 219,
+    "word": "monеe",
+    "type": "n.",
+    "meaning": "钱",
+    "example": "multm monee 很多钱"
+  },
+  {
+    "id": 220,
+    "word": "prezo",
+    "type": "n.",
+    "meaning": "价格",
+    "example": "altm prezo 高价格"
+  },
+  {
+    "id": 221,
+    "word": "vesto",
+    "type": "n.",
+    "meaning": "衣服",
+    "example": "belm vesto 美丽的衣服"
+  },
+  {
+    "id": 222,
+    "word": "shue",
+    "type": "n.",
+    "meaning": "鞋",
+    "example": "nuvam shue 新鞋"
+  },
+  {
+    "id": 223,
+    "word": "chapeле",
+    "type": "n.",
+    "meaning": "帽子",
+    "example": "rujem chapele 红帽子"
+  },
+  {
+    "id": 224,
+    "word": "tabile",
+    "type": "n.",
+    "meaning": "桌子",
+    "example": "grandm tabile 大桌子"
+  },
+  {
+    "id": 225,
+    "word": "segе",
+    "type": "n.",
+    "meaning": "椅子",
+    "example": "komfortm sege 舒适的椅子"
+  },
+  {
+    "id": 226,
+    "word": "litе",
+    "type": "n.",
+    "meaning": "床",
+    "example": "molm lite 软床"
+  },
+  {
+    "id": 227,
+    "word": "portе",
+    "type": "n.",
+    "meaning": "门",
+    "example": "grandm porte 大门"
+  },
+  {
+    "id": 228,
+    "word": "fenestrе",
+    "type": "n.",
+    "meaning": "窗户",
+    "example": "belm fenestre 美丽的窗户"
+  },
+  {
+    "id": 229,
+    "word": "kambere",
+    "type": "n.",
+    "meaning": "房间",
+    "example": "litm kambere 小房间"
+  },
+  {
+    "id": 230,
+    "word": "kulere",
+    "type": "n.",
+    "meaning": "勺子",
+    "example": "klinm kulere 干净的勺子"
+  },
+  {
+    "id": 231,
+    "word": "forke",
+    "type": "n.",
+    "meaning": "叉子",
+    "example": "argentm forke 银叉子"
+  },
+  {
+    "id": 232,
+    "word": "kultele",
+    "type": "n.",
+    "meaning": "刀",
+    "example": "akrem kultele 锋利的刀"
+  },
+  {
+    "id": 233,
+    "word": "plate",
+    "type": "n.",
+    "meaning": "盘子",
+    "example": "blankm plate 白盘子"
+  },
+  {
+    "id": 234,
+    "word": "glase",
+    "type": "n.",
+    "meaning": "杯子",
+    "example": "plenm glase 满杯子"
+  },
+  {
+    "id": 235,
+    "word": "kuke",
+    "type": "n.",
+    "meaning": "蛋糕",
+    "example": "dolchm kuke 甜蛋糕"
+  },
+  {
+    "id": 236,
+    "word": "tee",
+    "type": "n.",
+    "meaning": "茶",
+    "example": "hotm tee 热茶"
+  },
+  {
+    "id": 237,
+    "word": "kafe",
+    "type": "n.",
+    "meaning": "咖啡",
+    "example": "fortm kafe 浓咖啡"
+  },
+  {
+    "id": 238,
+    "word": "lakto",
+    "type": "n.",
+    "meaning": "牛奶",
+    "example": "blankm lakto 白牛奶"
+  },
+  {
+    "id": 239,
+    "word": "ovo",
+    "type": "n.",
+    "meaning": "蛋",
+    "example": "flavm ovo 黄蛋"
+  },
+  {
+    "id": 240,
+    "word": "rize",
+    "type": "n.",
+    "meaning": "米饭",
+    "example": "blankm rize 白米饭"
+  },
+  {
+    "id": 241,
+    "word": "saleo",
+    "type": "n.",
+    "meaning": "盐",
+    "example": "blankm saleo 白盐"
+  },
+  {
+    "id": 242,
+    "word": "sukre",
+    "type": "n.",
+    "meaning": "糖",
+    "example": "dolchm sukre 甜糖"
+  },
+  {
+    "id": 243,
+    "word": "oleo",
+    "type": "n.",
+    "meaning": "油",
+    "example": "flavm oleo 黄油"
+  },
+  {
+    "id": 244,
+    "word": "sapе",
+    "type": "n.",
+    "meaning": "肥皂",
+    "example": "klinm sape 干净的肥皂"
+  },
+  {
+    "id": 245,
+    "word": "papere",
+    "type": "n.",
+    "meaning": "纸",
+    "example": "blankm papere 白纸"
+  },
+  {
+    "id": 246,
+    "word": "plume",
+    "type": "n.",
+    "meaning": "笔",
+    "example": "bluem plume 蓝笔"
+  },
+  {
+    "id": 247,
+    "word": "bokse",
+    "type": "n.",
+    "meaning": "盒子，箱子",
+    "example": "grandm bokse 大盒子"
+  },
+  {
+    "id": 248,
+    "word": "sake",
+    "type": "n.",
+    "meaning": "袋子",
+    "example": "fortm sake 结实的袋子"
+  },
+  {
+    "id": 249,
+    "word": "klavo",
+    "type": "n.",
+    "meaning": "钥匙",
+    "example": "litm klavo 小钥匙"
+  },
+  {
+    "id": 250,
+    "word": "yes",
+    "type": "interj.",
+    "meaning": "是的，对",
+    "example": "yes, lao ka saz 是的，我爱你"
+  },
+  {
+    "id": 251,
+    "word": "no",
+    "type": "interj.",
+    "meaning": "不，否",
+    "example": "no, mit lao ka saz 不，我不爱你"
+  },
+  {
+    "id": 252,
+    "word": "danke",
+    "type": "interj.",
+    "meaning": "谢谢",
+    "example": "danke mutn 非常感谢"
+  },
+  {
+    "id": 253,
+    "word": "bonvene",
+    "type": "interj.",
+    "meaning": "不客气，欢迎",
+    "example": "bonvene! 不客气！"
+  },
+  {
+    "id": 254,
+    "word": "pardone",
+    "type": "interj.",
+    "meaning": "对不起，抱歉",
+    "example": "pardone! 对不起！"
+  },
+  {
+    "id": 255,
+    "word": "salute",
+    "type": "interj.",
+    "meaning": "你好，您好",
+    "example": "salute! mwa zo sa? 你好！你怎么样？"
+  },
+  {
+    "id": 256,
+    "word": "adio",
+    "type": "interj.",
+    "meaning": "再见",
+    "example": "adio! vi reviso! 再见！再次见！"
+  },
+  {
+    "id": 257,
+    "word": "bonmatene",
+    "type": "interj.",
+    "meaning": "早上好",
+    "example": "bonmatene! 早上好！"
+  },
+  {
+    "id": 258,
+    "word": "bonnokte",
+    "type": "interj.",
+    "meaning": "晚安",
+    "example": "bonnokte! 晚安！"
+  },
+  {
+    "id": 259,
+    "word": "gratuле",
+    "type": "interj.",
+    "meaning": "祝贺，恭喜",
+    "example": "gratule! 恭喜！"
+  },
+  {
+    "id": 260,
+    "word": "helpe",
+    "type": "interj.",
+    "meaning": "帮助，救命",
+    "example": "helpe! 救命！"
   }
 ]
