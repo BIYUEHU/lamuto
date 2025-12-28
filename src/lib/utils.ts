@@ -8,7 +8,7 @@ const list = [
   ['porn.', 'a']
 ] as const
 
-const extraTypes = ['conj.', 'intj.', 'prep.']
+const extraTypes = ['conj.', 'interj.', 'prep.', 'part.', 'num.', 'axu.']
 const regularSuffix = list.map(([, suffix]) => suffix)
 
 export function checkValidity(word: Word) {
